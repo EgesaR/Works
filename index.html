@@ -1,8 +1,25 @@
+<!doctype html>
 <html>
-  <head>
-    <title>Works 1.0</title>
-  </head>
-  <body>
-    <p>Hello World</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Works 1.0</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline **text-clifford**">
+    Hello world!
+  </h1>
+</body>
 </html>
