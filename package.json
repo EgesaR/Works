@@ -1,0 +1,26 @@
+{
+  "name": "works1.0",
+  "version": "1.0.0",
+  "description": "Place to edit, format, convert files and chat with your team mates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render": "npx tailwindcss -i ./build/input.css -o ./build/css/style.css --watch",
+    "bundle": "npx rollup -p @rollup/plugin-node-resolve ./build/js/index.js -o ./build/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https:github.io/EgesaR/Works"
+  },
+  "author": "Egesa Raymond",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.10.1",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@material/web": "^1.4.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.14.0"
+  }
+}
