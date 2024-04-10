@@ -8,7 +8,7 @@
     </head>
     <body>
         <!-- Nav Bar -->
-        <div class="navbar border-b-2 border-indigo-500">
+        <div class="navbar transparent border-b-2 border-indigo-500">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div class="btn btn-ghost lg:hidden" role="button" tabindex="0">
@@ -111,89 +111,53 @@
                     Get Started
                 </a>
             </div>
-
         </div>
         <!-- End Of Nav Bar -->
 
         <!-- Hero Container -->
-        <div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-            <div class="hero-overlay bg-opacity-60">
+        <header class="hero min-h-screen bg-gradient-to-r from-sky-500 to-indigo-500">
+          <div class="hero-content flex flex-col lg:flex-row-reverse">
+            <div class="text-center lg:text-left px-6">
+              <h1 class="text-5xl font-bold text-white">Works Office</h1>
+              <p class="py-6 text-xl text-white">The next generation of productivity tools, built for the modern workplace and revolutionizing the power of creation and editing with JavaScript.</p>
+              <a href="#features" class="btn btn-primary">Explore Works Office</a>
             </div>
-            <div class="hero-content flex-col">
-                <div class="px-5">
-                    <h1 class="text-5xl font-bold">
-                        Revolutionizing the power of creation and editing with JavaScript.
-                    </h1>
-                    <p class="py-6 px-6 text-xl mt-3">
-                         Works is an all-in-one platform for creating and editing templates, collaborating with colleagues, and improving document quality. It offers customizable actions, free document storage, and the ability to contribute templates to the marketplace.
-                    </p>
-                </div>
-            </div>
-        </div>
+          </div>
+        </header>
         <!-- End Hero Container -->
 
-        <div class="px-5 mt-8">
-          <div>
-              <h3 class="text-4xl pl-7 mt-8 mb-3">Introducing</h3>
-          </div>
-          <div class="card lg:card-side bg-base-100 shadow-xl my-6">
-            <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-            <div class="card-body">
-              <h2 class="card-title">Blazing speed to edit documents</h2>
-              <p>Create and write your docs with ease and </p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Listen</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="card lg:card-side bg-base-100 shadow-xl my-6">
-            <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-            <div class="card-body">
-              <h2 class="card-title">New Functions, Actions and</h2>
-              <p>Click the button to listen on Spotiwhy app.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Listen</button>
-              </div>
-            </div>
-          </div>
-          
-          <div class="card lg:card-side bg-base-100 shadow-xl my-6">
-            <figure>
-              <img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/>
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title">New album is released!</h2>
-              <p>Click the button to listen on Spotiwhy app.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Listen</button>
-              </div>
-            </div>
-          </div>
-          
-          <div class="card lg:card-side bg-base-100 shadow-xl my-6">
-            <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-            <div class="card-body">
-              <h2 class="card-title">New album is released!</h2>
-              <p>Click the button to listen on Spotiwhy app.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Listen</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="card card-side bg-base-100 shadow-xl my-6">
-            <figure><img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie"/></figure>
-            <div class="card-body">
-              <h2 class="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Watch</button>
-              </div>
-            </div>
-          </div>
-
+  <section id="features" class="container mx-auto py-20">
+    <h2 class="text-3xl font-bold text-center mb-10">Empowering Your Teams</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="card bg-base-100 shadow-md">
+        <div class="card-body">
+          <h2 class="card-title text-primary">Seamless Collaboration</h2>
+          <p>Work together in real-time on documents, spreadsheets, and presentations. Never lose track of changes again.</p>
         </div>
+      </div>
+      <div class="card bg-base-100 shadow-md">
+        <div class="card-body">
+          <h2 class="card-title text-primary">Enhanced Intelligence</h2>
+          <p>Leverage AI-powered features to automate tasks, improve writing, and gain deeper insights from your data.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-md">
+        <div class="card-body">
+          <h2 class="card-title text-primary">Unmatched Security</h2>
+          <p>Enjoy enterprise-grade security with robust access controls and data encryption to keep your work safe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-center py-20 bg-gray-100">
+    <h2 class="text-3xl font-bold mb-5">Ready to take your productivity to the next level?</h2>
+    <a href="#" class="btn btn-primary">Sign Up for Free Trial</a>
+  </section>
+
+  <footer class="text-center py-4 bg-gray-200">
+    <p>© 2024 Works Office</p>
+  </footer>
 
     </body>
 </html>
